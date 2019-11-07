@@ -1,64 +1,79 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Erica L Bio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SCOTUS Votes</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="scotus.css">
+    
 </head>
+
 <body>
-  <h2>Erica L. Bio</h2>
-  <br>
-  <!-- image -->
-  <img src="Resources/All3Dogs.jpg" 
-  alt="Peaches, Barto, and Rita" style="width:400px;height:300px;"/>
-  <br>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark" style="background-color: #4e79a7;">
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent suscipit dignissim molestie. 
-   Aliquam rutrum neque velit, vel fermentum est facilisis eget. Nam arcu elit, finibus vel nibh a, 
-   ullamcorper pharetra lacus. Nam nec iaculis leo. Aliquam pharetra neque lectus, a accumsan nunc 
-   tincidunt eu. Suspendisse potenti. Duis condimentum in orci quis commodo.</p>
+    <!-- Navbar brand -->
+    <a class="navbar-brand" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index.html">SCOTUS Votes</a>
 
-  <p>Nam eros diam, iaculis ac gravida id, gravida nec lectus. Fusce tempor, erat non tincidunt commodo, 
-   dui orci maximus justo, vel elementum diam magna a quam. Maecenas sagittis leo eu cursus laoreet. 
-   Sed scelerisque in neque sed gravida. Phasellus eu nisi faucibus mauris mattis tincidunt. Praesent 
-   lectus tortor, maximus non imperdiet at, malesuada vitae quam. Vestibulum vehicula lorem mattis semper 
-   lobortis.</p> 
+  <!-- Collapse button -->
+  <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+        aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-  <br>
-  <h3>Data Analytics Bootcamp Projects</h3>
-  <a href ="https://ericaleon.github.io/WeatherPy_APIs">WeatherPy APIs</a>
-  <br>
-  <br>
-  <h3>Social Media Links</h3>
-   <uo>
-     <li>instagram: erica_lionberry</li>
-     <li>linkedin: Erica Leon</li>
-   </uo>
-   <br>
-  <h3>Books I've enjoyed</h3>
-  <table border="1", style="width:50%">
-    <tr>
-      <th>Book Title</th>
-      <th>Author</th> 
-      <th>Genre</th>
-    </tr>
-    <tr>
-      <td>Hitchhiker's Guide to the Galaxy</td>
-      <td>Douglas Adams</td>
-      <td>Comedy, Sci-Fi</td>
-    </tr>
-    <tr>
-      <td>Big Little Lies</td>
-      <td>Lianne Moriarty</td>
-      <td>Mystery</td>
-    </tr>
-    <tr>
-      <td>Born a Crime</td>
-      <td>Trevor Noah</td>
-      <td>Auto-biography</td>
-    </tr>
-  </table>
-  <br>
-  <br>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index_about.html">About the Project</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" style="font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight:bold;" href="index_model.html">Behind the Model</a>
+        </li>
+        </ul>
+        <!-- Links -->
+
+    </div>
+    <!-- Collapsible content -->
+
+    </nav>
+    <!--/.Navbar-->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+        <h1 class="display-9" style="text-align: center">Predicting Supreme Court Rulings <br> Based on Historical Case Data</h1>
+        <img src='images/supreme-court-use.jpg' alt="court" class="mx-auto d-block" style="width: 35%">
+        <br>
+        <h5 style="text-align: center">by Erica Leon, Mirella Mardakis, & Emily Tavik</h5>
+        </div>
+    </div>
+    <div class="container-fluid col-lg-12">
+        <div class='tableauPlaceholder' id='viz1567092685452' style='position: relative; margin-top: 60px; margin-bottom: auto; margin-right: auto; margin-left:auto;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5T&#47;5TZ85XSSM&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5TZ85XSSM' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5T&#47;5TZ85XSSM&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1567092685452');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1266px';vizElement.style.height='2395px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+        <div class='tableauPlaceholder' id='viz1567090693138' style='position: relative; margin-top: -300px; margin-bottom: auto;  margin-right: auto; margin-left: auto; padding-left: 8%; padding-right: 8%;'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;Current_Historical_Predictions&#47;CurrentCasePredictions&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Current_Historical_Predictions&#47;CurrentCasePredictions' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cu&#47;Current_Historical_Predictions&#47;CurrentCasePredictions&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1567090693138');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+        <h3 style = "text-align: center; margin-top: 50px;">If all else fails:</h3>
+        <hr style= "width:420px">
+        <img src='images/DJlN.gif' alt="gif" class="mx-auto d-block" style="width: 40%; margin-bottom: 10px;">
+    </div>
+     <!--[ footer ] -->
+    <div id="footer">
+        <!-- <div class="container" style="background-color:#4e79a7"> -->
+        <p class="footer-block" style="color: white; margin-top: 12px;">Thank you for your interest.</p>
+    </div>
 </body>
 
 </html>
